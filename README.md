@@ -14,8 +14,8 @@ Automatically generates and attaches a PDF when a sales document gets submitted.
 
 ```bash
 cd frappe-bench
-bench get-app https://github.com/alyf-de/pdf_on_submit.git
-bench --site MY_SITE install-app pdf_on_submit
+bench get-app https://github.com/bvisible/pdf-on-submit.git
+bench --site prod.local install-app pdf_on_submit
 ```
 
 > Remeber to replace `MY_SITE` with your site name.
